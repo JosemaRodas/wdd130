@@ -14,9 +14,22 @@
     --nav-hover-background-color: #F49D6E;
   }
 
-  
+
+
+/* styles.css */
+.hero {
+    text-align: center; /* Center the entire hero section horizontally */
+}
+
+h1 {
+    margin-top: 0; /* Remove default margin from the top of the h1 element */
+}
+
+/* Additional styles for your other elements (e.g., images, paragraphs) can be added here */
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
   }
+
