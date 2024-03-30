@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+:root {
+    --primary-color: #A40E4C;
+    --secondary-color: #2C2C54;
+    --accent1-color: #ACC3A6;
+    --accent2-color: #F5D6BA;
+  
+    --heading-font: 'Tauri', serif;
+    --paragraph-font: 'Tauri', serif;
+  
+    --nav-background-color: #F5D6BA;
+    --nav-link-color: #F49D6E;
+    --nav-hover-link-color: #F5D6BA;
+    --nav-hover-background-color: #F49D6E;
+  }
+
+  
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
