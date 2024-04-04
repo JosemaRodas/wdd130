@@ -1,3 +1,11 @@
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 header {
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -65,3 +73,7 @@ main {
     border-top: 1px solid #000;
     text-align: center;
   }
+
+
+/* Class Selectors */
+
