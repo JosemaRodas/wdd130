@@ -23,7 +23,7 @@ nav {
 }
 
 h1 { 
-    padding: 5rem;
+    padding: 5px;
     color: steelblue;
 
 }
@@ -39,6 +39,12 @@ header, footer, .grid {
   align-items: center;
 }
 
+main {
+  grid-column: 2;
+  margin: 1rem;
+}
+
+
 main img {
   width: 150px;
   height: auto;
@@ -50,11 +56,16 @@ main img {
 
 }
 
+p {
+  margin: 1rem;
+}
 
 aside {
   width: 20em;
   text-align: center;
   position: relative;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 
@@ -65,7 +76,8 @@ aside img {
 
 aside h2 {
   position: absolute;
-  left: 130px;
+  left: 120px;
+  top: 30px;
 }
 
 
@@ -73,6 +85,8 @@ footer {
   margin-top: 1em;
   border-top: 1px solid #000;
   text-align: center;
+  grid-column: 2;
+  
 }
 
 
