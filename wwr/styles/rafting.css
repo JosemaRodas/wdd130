@@ -51,13 +51,11 @@ nav {
     text-decoration: underline;
 }
 
-/* Estilo para el contenedor principal */
 .hero {
     position: relative;
     text-align: center;
 }
 
-/* Estilo para el título "RaftingAdventureLaPaz!" */
 .hero h1 {
     position: absolute;
     top: 50%;
@@ -70,44 +68,37 @@ nav {
     border-radius: 5px;
 }
 
-/* Estilo para la caja invisible debajo del título */
 .hero article {
     display: none;
 }
 
-/* Estilo para la imagen "smile" */
 .hero img[src="images/smile.png"] {
     display: block;
     margin: 10px auto;
     max-width: 50px;
 }
 
-/* Estilos para la sección de cajas */
 .image-grid {
     display: flex;
 }
 
-/* Estilos para el footer */
 footer {
     background-color: #3c3b3b;
     padding: 20px;
     text-align: center;
 }
 
-/* Estilos para el texto de copyright */
 footer p {
     font-size: 16px;
     color: #fff;
     margin: 0;
 }
 
-/* Estilos para los enlaces de redes sociales */
 .sociallinks a {
     display: inline-block;
     margin: 0 10px;
 }
 
-/* Estilos para las imágenes de redes sociales */
 .sociallinks img {
     width: 30px;
     height: auto;
