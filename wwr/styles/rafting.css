@@ -1,78 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
 :root {
     --primary-color: #A40E4C;
     --secondary-color: #2C2C54;
     --accent1-color: #ACC3A6;
     --accent2-color: #F5D6BA;
-  
     --heading-font: 'Tauri', serif;
     --paragraph-font: 'Tauri', serif;
-  
     --nav-background-color: #F5D6BA;
     --nav-link-color: #F49D6E;
     --nav-hover-link-color: #F5D6BA;
     --nav-hover-background-color: #F49D6E;
-  }
-
-
-
-.hero {
-    text-align: center; 
 }
-
-h1 {
-    margin-top: 0; 
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
 
 header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
-}
-
-.logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: auto;
 }
 
 h1 {
-	font-size: 2rem;
-	font-family: Arial, sans-serif;
-	padding: 5rem;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    padding: 5rem;
 }
 
 nav {
-	text-align: right;
+    text-align: right;
 }
 
 .navigation {
-	display: flex;
-	list-style: none;
-}
-
-.navigation li {
-	flex: 1 1 100%;
+    display: flex;
+    list-style: none;
 }
 
 .navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: navy;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Estilo para el contenedor principal */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+/* Estilo para el título "RaftingAdventureLaPaz!" */
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Estilo para la caja invisible debajo del título */
+.hero article {
+    display: none;
+}
+
+/* Estilo para la imagen "smile" */
+.hero img[src="images/smile.png"] {
+    display: block;
+    margin: 10px auto;
+    max-width: 50px;
+}
+
+/* Estilos para la sección de cajas */
+.image-grid {
+    display: flex;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #3c3b3b;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el texto de copyright */
+footer p {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.sociallinks a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Estilos para las imágenes de redes sociales */
+.sociallinks img {
+    width: 30px;
+    height: auto;
 }
