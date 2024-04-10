@@ -129,6 +129,32 @@ nav {
   object-fit: cover;
 }
 
+
+
+
+
+
+.adventure-profiles {
+    display: flex;
+    justify-content: center; 
+  }
+
+.adventure-info {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .adventure-profiles img {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  object-fit: cover;
+}
+
+
+
+
+
 form {
     display: flex;
     flex-direction: column;
