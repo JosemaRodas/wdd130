@@ -63,6 +63,8 @@ nav {
 .hero {
     position: relative;
     text-align: center;
+    width: 100%;
+    height: max-content;
     
 }
 
@@ -72,7 +74,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 24px;
-    color: white;
+    color: rgb(204, 204, 204);
     background-color: rgba(57, 57, 57, 0.7);
     padding: 10px 20px;
     border-radius: 5px;
@@ -87,11 +89,6 @@ nav {
     display: none;
 }
 
-
-
-.image-grid {
-    display: flex;
-}
 
 
 
