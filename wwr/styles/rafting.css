@@ -27,6 +27,8 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
+
+
 h1 {
     font-size: 2rem;
     font-family: Tauri, sans-serif;
@@ -38,6 +40,7 @@ nav {
 }
 
 .navigation {
+    padding-left: 300px;
     display: flex;
     list-style: none;
 }
@@ -65,12 +68,14 @@ nav {
     text-align: center;
     width: 100%;
     height: max-content;
+    text-decoration: none;
+
     
 }
 
 .hero h1, .button {
     position: absolute;
-    top: 50%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 24px;
@@ -79,16 +84,17 @@ nav {
     padding: 10px 20px;
     border-radius: 5px;
 }
-
-.hero .button:hover {
-    color: tomato;
-    text-decoration: underline;
+.hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+    background-color: rgba(57, 57, 57, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
 }
-
-.hero article {
-    display: none;
-}
-
 
 
 
@@ -188,7 +194,7 @@ input, textarea, select {
 }
   
 footer {
-    background-color: #626262;
+    background-color: #484848;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -215,3 +221,17 @@ footer {
     margin: 0 10px;
   }
   
+  .separador-botton{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 60%;  
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  .separador-botton:hover{
+    background-color: #cfcfcf;
+  }
