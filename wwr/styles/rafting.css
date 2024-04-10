@@ -235,3 +235,38 @@ footer {
   .separador-botton:hover{
     background-color: #cfcfcf;
   }
+
+
+
+  .trips-history {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+    width: 70%;  
+    margin: 20px auto;
+    width: 70%;  
+    text-align: justify;
+
+  }
+  
+  .trips-history img {
+    grid-column: 1; 
+    grid-row: 1 / span 2; 
+    width: 300px;
+    height: auto; 
+  }
+  
+  .trips-history p {
+    grid-column: auto; 
+    margin: 60px auto;
+    padding: 5px; 
+    text-align: center; 
+  }
+  
+  .trips-name{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 270px;
+    width: 50%;  
+    text-align: left;
+}
