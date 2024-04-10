@@ -95,10 +95,6 @@ nav {
 }
 
 
-
-
-
-
 .contact-info{
     display: flex;
     flex-direction: column;
@@ -106,11 +102,22 @@ nav {
     width: 50%;  
 }
 
-.employee-profiles{
+.employee-profiles {
     display: flex;
-    flex-direction: column;
-    margin: 20px auto;
-    width: 50%;  
+    justify-content: center; 
+  }
+
+.profile-info {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .employee-profiles img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  object-fit: cover;
 }
 
 form {
@@ -121,10 +128,20 @@ form {
   }
 
 
+input, textarea, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
 
-
-
-
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
 footer {
     background-color: #333;
     color: #fff;
