@@ -81,24 +81,33 @@ nav {
     display: flex;
 }
 
+
+
+
 footer {
-    background-color: #3c3b3b;
-    padding: 20px;
-    text-align: center;
-}
-
-footer p {
-    font-size: 16px;
+    background-color: #333;
     color: #fff;
+    padding: 20px 0;
+  }
+  
+  .contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .enlaces {
+    list-style: none;
     margin: 0;
-}
-
-.sociallinks a {
-    display: inline-block;
+    padding: 0;
+  }
+  
+  .enlaces a {
+    text-decoration: none;
+    color: #fff;
     margin: 0 10px;
-}
-
-.sociallinks img {
-    width: 30px;
-    height: auto;
-}
+  }
+  
