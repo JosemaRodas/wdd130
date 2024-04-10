@@ -24,10 +24,18 @@ body {
   }
   
   .submit-btn {
-    background-color: #4CAF50;
+    background-color: royalblue;
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+  }
+  
+  footer {
+    margin-top: 10rem;
+    border-top: 1px solid #000;
+    text-align: center;
+    grid-column: 2;
+    
   }
   
