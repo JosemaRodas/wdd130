@@ -102,6 +102,15 @@ nav {
     width: 50%;  
 }
 
+.separador{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 50%;  
+    text-align: center;
+}
+
+
 .employee-profiles {
     display: flex;
     justify-content: center; 
@@ -114,8 +123,8 @@ nav {
 
   .employee-profiles img {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin: 5px;
   object-fit: cover;
 }
