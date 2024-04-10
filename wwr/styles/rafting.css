@@ -13,8 +13,14 @@
     --nav-hover-background-color: #F49D6E;
 }
 
+body{
+    font-family: tauri;
+    font-size: 15px;
+}
+
+
 header {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000000;
     display: grid;
     grid-template-columns: 120px 1fr 1fr;
@@ -89,6 +95,30 @@ nav {
 }
 
 
+
+
+
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 50%;  
+}
+
+.employee-profiles{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 50%;  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 50%;
+  }
 
 
 
