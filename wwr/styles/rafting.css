@@ -22,8 +22,7 @@ body{
 header {
     background-color: #ffffff;
     color: #000000;
-    display: grid;
-    grid-template-columns: 120px 1fr 1fr;
+    display: flex;
     align-items: center;
     border-bottom: 1px solid #ccc;
 }
@@ -31,11 +30,11 @@ header {
 h1 {
     font-size: 2rem;
     font-family: Tauri, sans-serif;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 nav {
-    text-align: right;
+    text-align: left;
 }
 
 .navigation {
@@ -61,38 +60,51 @@ nav {
 
 
 
-
-
 .hero {
     position: relative;
     text-align: center;
+    
 }
 
-.hero h1 {
+.hero h1, .button {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 24px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(57, 57, 57, 0.7);
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.hero .button:hover {
+    color: tomato;
+    text-decoration: underline;
 }
 
 .hero article {
     display: none;
 }
 
-.hero img[src="images/smile.png"] {
-    display: block;
-    margin: 10px auto;
-    max-width: 50px;
-}
+
 
 .image-grid {
     display: flex;
 }
+
+
+
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 60%;  
+    text-align: justify;
+}
+
 
 
 .contact-info{
@@ -100,6 +112,7 @@ nav {
     flex-direction: column;
     margin: 20px auto;
     width: 50%;  
+    text-align: justify;
 }
 
 .separador{
