@@ -170,18 +170,20 @@ nav {
 .adventure-profiles {
     display: flex;
     justify-content: center; 
+    margin: auto;
+    width: 50%;  
+    text-align: center;
   }
 
 .adventure-info {
-    padding: 15px;
+    padding: 1px;
     text-align: center;
   }
 
   .adventure-profiles img {
-  width: 200px;
-  height: 200px;
-  margin: 5px;
-  object-fit: cover;
+  width: 170px;
+  height: 170px;
+  margin: 1px;
 }
 
 
